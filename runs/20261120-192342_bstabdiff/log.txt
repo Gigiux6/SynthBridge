@@ -1,0 +1,22 @@
+Avvio generate() su 150 righe x 5 colonne
+[progress] 10% Preprocessing dei dati e gestione colonne categoriche...
+[progress] 30% Inizializzazione e fit di BSTabDiff...
+[prior:diffusion] epoch 1/1500 | loss=1.000350
+[prior:diffusion] epoch 200/1500 | loss=0.228059
+[prior:diffusion] epoch 400/1500 | loss=0.177018
+[prior:diffusion] epoch 600/1500 | loss=0.129876
+[prior:diffusion] epoch 800/1500 | loss=0.157027
+[prior:diffusion] epoch 1000/1500 | loss=0.132291
+[prior:diffusion] epoch 1200/1500 | loss=0.115429
+[prior:diffusion] epoch 1400/1500 | loss=0.099862
+[prior:diffusion] epoch 1500/1500 | loss=0.122494
+[progress] 80% Generazione campioni sintetici...
+Traceback (most recent call last):
+  File "C:\Users\lespo\Desktop\Huni\MAGISTRALE\Libri\SAD\Progetto SAD\SynthBridge\bridge\synthbridge.py", line 157, in main
+    result = fn(data, int(job["n_rows"]), job.get("params", {}), info)
+  File "C:/Users/lespo/Desktop/Huni/MAGISTRALE/Libri/SAD/Progetto SAD/SynthBridge/algorithms/bstabdiff\adapter.py", line 54, in generate
+    if col in synthetic_df.columns:
+              ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'tuple' object has no attribute 'columns'
+
+[0m

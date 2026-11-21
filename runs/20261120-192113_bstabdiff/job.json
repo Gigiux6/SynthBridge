@@ -1,0 +1,38 @@
+{
+  "algorithm": "bstabdiff",
+  "algorithm_name": "BSTabDiff",
+  "dataset": "console",
+  "entry": "adapter.py",
+  "function": "generate",
+  "n_rows": 50,
+  "seed": 42,
+  "params": {
+    "epochs": 5,
+    "batch_size": 64,
+    "latent_dim": 16,
+    "learning_rate": 0.001
+  },
+  "schema": [
+    {
+      "name": "Sepal.Length",
+      "type": "numeric"
+    },
+    {
+      "name": "Sepal.Width",
+      "type": "numeric"
+    },
+    {
+      "name": "Petal.Length",
+      "type": "numeric"
+    },
+    {
+      "name": "Petal.Width",
+      "type": "numeric"
+    },
+    {
+      "name": "Species",
+      "type": "categorical"
+    }
+  ],
+  "created": "2026-11-20 19:21:13"
+}

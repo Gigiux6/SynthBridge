@@ -1,0 +1,14 @@
+Avvio generate() su 150 righe x 5 colonne
+[progress] 10% Inizializzazione del modello BSTabDiff...
+Traceback (most recent call last):
+  File "C:\Users\lespo\Desktop\Huni\MAGISTRALE\Libri\SAD\Progetto SAD\SynthBridge\bridge\synthbridge.py", line 157, in main
+    result = fn(data, int(job["n_rows"]), job.get("params", {}), info)
+  File "C:/Users/lespo/Desktop/Huni/MAGISTRALE/Libri/SAD/Progetto SAD/SynthBridge/algorithms/bstabdiff\adapter.py", line 21, in generate
+    model = BSTabDiff(
+        epochs=epochs,
+        batch_size=batch_size,
+        lr=learning_rate
+    )
+TypeError: BSTabDiff.__init__() got an unexpected keyword argument 'epochs'
+
+[0m

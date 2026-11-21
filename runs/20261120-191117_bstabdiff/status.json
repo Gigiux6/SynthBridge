@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "error": "TypeError: BSTabDiff.__init__() got an unexpected keyword argument 'epochs'",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\lespo\\Desktop\\Huni\\MAGISTRALE\\Libri\\SAD\\Progetto SAD\\SynthBridge\\bridge\\synthbridge.py\", line 157, in main\n    result = fn(data, int(job[\"n_rows\"]), job.get(\"params\", {}), info)\n  File \"C:/Users/lespo/Desktop/Huni/MAGISTRALE/Libri/SAD/Progetto SAD/SynthBridge/algorithms/bstabdiff\\adapter.py\", line 21, in generate\n    model = BSTabDiff(\n        epochs=epochs,\n        batch_size=batch_size,\n        lr=learning_rate\n    )\nTypeError: BSTabDiff.__init__() got an unexpected keyword argument 'epochs'\n",
+  "elapsed": 11.34
+}

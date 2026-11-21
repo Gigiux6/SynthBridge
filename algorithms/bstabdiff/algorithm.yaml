@@ -1,0 +1,62 @@
+id: bstabdiff
+name: "BSTabDiff"
+backend: python
+python_env: bstabdiff
+
+description:
+  it: "Diffusione e Copula Latente a Blocchi per la Sintesi di Dati Tabulari (HDLSS e Tabular General)"
+  en: "Block-Subunit Latent Diffusion and Copula for Tabular Data Synthesis (HDLSS and General)"
+
+author: "Zadid et al."
+paper_url: "https://github.com/zadid6pretam/BSTabDiff"
+
+params:
+  - name: epochs
+    label:
+      it: "Numero di Epoche"
+      en: "Epochs"
+    type: integer
+    default: 100
+    min: 10
+    max: 2000
+    help:
+      it: "Numero di epoche di addestramento del modello a diffusione latente."
+      en: "Number of training epochs for the latent diffusion model."
+
+  - name: batch_size
+    label:
+      it: "Dimensione del Batch"
+      en: "Batch Size"
+    type: integer
+    default: 64
+    min: 8
+    max: 512
+    help:
+      it: "Numero di campioni elaborati per singolo passo di gradiente."
+      en: "Number of samples per gradient step."
+
+  - name: latent_dim
+    label:
+      it: "Dimensione Latente (M)"
+      en: "Latent Dimension (M)"
+    type: integer
+    default: 16
+    min: 2
+    max: 128
+    advanced: true
+    help:
+      it: "Dimensione dello spazio latente a blocchi (M << m)."
+      en: "Dimension of the block latent space (M << m)."
+
+  - name: learning_rate
+    label:
+      it: "Learning Rate"
+      en: "Learning Rate"
+    type: numeric
+    default: 0.001
+    min: 0.0001
+    max: 0.01
+    advanced: true
+    help:
+      it: "Tasso di apprendimento per l'ottimizzatore."
+      en: "Learning rate for the optimizer."

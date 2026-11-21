@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "error": "AttributeError: 'tuple' object has no attribute 'columns'",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\lespo\\Desktop\\Huni\\MAGISTRALE\\Libri\\SAD\\Progetto SAD\\SynthBridge\\bridge\\synthbridge.py\", line 157, in main\n    result = fn(data, int(job[\"n_rows\"]), job.get(\"params\", {}), info)\n  File \"C:/Users/lespo/Desktop/Huni/MAGISTRALE/Libri/SAD/Progetto SAD/SynthBridge/algorithms/bstabdiff\\adapter.py\", line 54, in generate\n    if col in synthetic_df.columns:\n              ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'tuple' object has no attribute 'columns'\n",
+  "elapsed": 35.8
+}
