@@ -1,0 +1,66 @@
+{
+  "algorithm": "bstabdiff",
+  "algorithm_name": "BSTabDiff",
+  "dataset": "console",
+  "entry": "adapter.py",
+  "function": "generate",
+  "n_rows": 100,
+  "seed": 42,
+  "params": {
+    "epochs": 10,
+    "batch_size": 64,
+    "latent_dim": 16,
+    "learning_rate": 0.001
+  },
+  "schema": [
+    {
+      "name": "id",
+      "type": "integer"
+    },
+    {
+      "name": "gender",
+      "type": "categorical"
+    },
+    {
+      "name": "age",
+      "type": "numeric"
+    },
+    {
+      "name": "hypertension",
+      "type": "integer"
+    },
+    {
+      "name": "heart_disease",
+      "type": "integer"
+    },
+    {
+      "name": "ever_married",
+      "type": "categorical"
+    },
+    {
+      "name": "work_type",
+      "type": "categorical"
+    },
+    {
+      "name": "Residence_type",
+      "type": "categorical"
+    },
+    {
+      "name": "avg_glucose_level",
+      "type": "numeric"
+    },
+    {
+      "name": "bmi",
+      "type": "categorical"
+    },
+    {
+      "name": "smoking_status",
+      "type": "categorical"
+    },
+    {
+      "name": "stroke",
+      "type": "integer"
+    }
+  ],
+  "created": "2026-11-24 13:38:18"
+}

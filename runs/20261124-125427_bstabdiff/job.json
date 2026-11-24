@@ -1,0 +1,8022 @@
+{
+  "algorithm": "bstabdiff",
+  "algorithm_name": "BSTabDiff",
+  "dataset": "console",
+  "entry": "adapter.py",
+  "function": "generate",
+  "n_rows": 50,
+  "seed": 42,
+  "params": {
+    "epochs": 5,
+    "batch_size": 64,
+    "latent_dim": 16,
+    "learning_rate": 0.001
+  },
+  "schema": [
+    {
+      "name": "gene_1",
+      "type": "integer"
+    },
+    {
+      "name": "gene_2",
+      "type": "integer"
+    },
+    {
+      "name": "gene_3",
+      "type": "integer"
+    },
+    {
+      "name": "gene_4",
+      "type": "integer"
+    },
+    {
+      "name": "gene_5",
+      "type": "integer"
+    },
+    {
+      "name": "gene_6",
+      "type": "integer"
+    },
+    {
+      "name": "gene_7",
+      "type": "integer"
+    },
+    {
+      "name": "gene_8",
+      "type": "integer"
+    },
+    {
+      "name": "gene_9",
+      "type": "integer"
+    },
+    {
+      "name": "gene_10",
+      "type": "integer"
+    },
+    {
+      "name": "gene_11",
+      "type": "integer"
+    },
+    {
+      "name": "gene_12",
+      "type": "integer"
+    },
+    {
+      "name": "gene_13",
+      "type": "integer"
+    },
+    {
+      "name": "gene_14",
+      "type": "integer"
+    },
+    {
+      "name": "gene_15",
+      "type": "integer"
+    },
+    {
+      "name": "gene_16",
+      "type": "integer"
+    },
+    {
+      "name": "gene_17",
+      "type": "integer"
+    },
+    {
+      "name": "gene_18",
+      "type": "integer"
+    },
+    {
+      "name": "gene_19",
+      "type": "integer"
+    },
+    {
+      "name": "gene_20",
+      "type": "integer"
+    },
+    {
+      "name": "gene_21",
+      "type": "integer"
+    },
+    {
+      "name": "gene_22",
+      "type": "integer"
+    },
+    {
+      "name": "gene_23",
+      "type": "integer"
+    },
+    {
+      "name": "gene_24",
+      "type": "integer"
+    },
+    {
+      "name": "gene_25",
+      "type": "integer"
+    },
+    {
+      "name": "gene_26",
+      "type": "integer"
+    },
+    {
+      "name": "gene_27",
+      "type": "integer"
+    },
+    {
+      "name": "gene_28",
+      "type": "integer"
+    },
+    {
+      "name": "gene_29",
+      "type": "integer"
+    },
+    {
+      "name": "gene_30",
+      "type": "integer"
+    },
+    {
+      "name": "gene_31",
+      "type": "integer"
+    },
+    {
+      "name": "gene_32",
+      "type": "integer"
+    },
+    {
+      "name": "gene_33",
+      "type": "integer"
+    },
+    {
+      "name": "gene_34",
+      "type": "integer"
+    },
+    {
+      "name": "gene_35",
+      "type": "integer"
+    },
+    {
+      "name": "gene_36",
+      "type": "integer"
+    },
+    {
+      "name": "gene_37",
+      "type": "integer"
+    },
+    {
+      "name": "gene_38",
+      "type": "integer"
+    },
+    {
+      "name": "gene_39",
+      "type": "integer"
+    },
+    {
+      "name": "gene_40",
+      "type": "integer"
+    },
+    {
+      "name": "gene_41",
+      "type": "integer"
+    },
+    {
+      "name": "gene_42",
+      "type": "integer"
+    },
+    {
+      "name": "gene_43",
+      "type": "integer"
+    },
+    {
+      "name": "gene_44",
+      "type": "integer"
+    },
+    {
+      "name": "gene_45",
+      "type": "integer"
+    },
+    {
+      "name": "gene_46",
+      "type": "integer"
+    },
+    {
+      "name": "gene_47",
+      "type": "integer"
+    },
+    {
+      "name": "gene_48",
+      "type": "integer"
+    },
+    {
+      "name": "gene_49",
+      "type": "integer"
+    },
+    {
+      "name": "gene_50",
+      "type": "integer"
+    },
+    {
+      "name": "gene_51",
+      "type": "integer"
+    },
+    {
+      "name": "gene_52",
+      "type": "integer"
+    },
+    {
+      "name": "gene_53",
+      "type": "integer"
+    },
+    {
+      "name": "gene_54",
+      "type": "integer"
+    },
+    {
+      "name": "gene_55",
+      "type": "integer"
+    },
+    {
+      "name": "gene_56",
+      "type": "integer"
+    },
+    {
+      "name": "gene_57",
+      "type": "integer"
+    },
+    {
+      "name": "gene_58",
+      "type": "integer"
+    },
+    {
+      "name": "gene_59",
+      "type": "integer"
+    },
+    {
+      "name": "gene_60",
+      "type": "integer"
+    },
+    {
+      "name": "gene_61",
+      "type": "integer"
+    },
+    {
+      "name": "gene_62",
+      "type": "integer"
+    },
+    {
+      "name": "gene_63",
+      "type": "integer"
+    },
+    {
+      "name": "gene_64",
+      "type": "integer"
+    },
+    {
+      "name": "gene_65",
+      "type": "integer"
+    },
+    {
+      "name": "gene_66",
+      "type": "integer"
+    },
+    {
+      "name": "gene_67",
+      "type": "integer"
+    },
+    {
+      "name": "gene_68",
+      "type": "integer"
+    },
+    {
+      "name": "gene_69",
+      "type": "integer"
+    },
+    {
+      "name": "gene_70",
+      "type": "integer"
+    },
+    {
+      "name": "gene_71",
+      "type": "integer"
+    },
+    {
+      "name": "gene_72",
+      "type": "integer"
+    },
+    {
+      "name": "gene_73",
+      "type": "integer"
+    },
+    {
+      "name": "gene_74",
+      "type": "integer"
+    },
+    {
+      "name": "gene_75",
+      "type": "integer"
+    },
+    {
+      "name": "gene_76",
+      "type": "integer"
+    },
+    {
+      "name": "gene_77",
+      "type": "integer"
+    },
+    {
+      "name": "gene_78",
+      "type": "integer"
+    },
+    {
+      "name": "gene_79",
+      "type": "integer"
+    },
+    {
+      "name": "gene_80",
+      "type": "integer"
+    },
+    {
+      "name": "gene_81",
+      "type": "integer"
+    },
+    {
+      "name": "gene_82",
+      "type": "integer"
+    },
+    {
+      "name": "gene_83",
+      "type": "integer"
+    },
+    {
+      "name": "gene_84",
+      "type": "integer"
+    },
+    {
+      "name": "gene_85",
+      "type": "integer"
+    },
+    {
+      "name": "gene_86",
+      "type": "integer"
+    },
+    {
+      "name": "gene_87",
+      "type": "integer"
+    },
+    {
+      "name": "gene_88",
+      "type": "integer"
+    },
+    {
+      "name": "gene_89",
+      "type": "integer"
+    },
+    {
+      "name": "gene_90",
+      "type": "integer"
+    },
+    {
+      "name": "gene_91",
+      "type": "integer"
+    },
+    {
+      "name": "gene_92",
+      "type": "integer"
+    },
+    {
+      "name": "gene_93",
+      "type": "integer"
+    },
+    {
+      "name": "gene_94",
+      "type": "integer"
+    },
+    {
+      "name": "gene_95",
+      "type": "integer"
+    },
+    {
+      "name": "gene_96",
+      "type": "integer"
+    },
+    {
+      "name": "gene_97",
+      "type": "integer"
+    },
+    {
+      "name": "gene_98",
+      "type": "integer"
+    },
+    {
+      "name": "gene_99",
+      "type": "integer"
+    },
+    {
+      "name": "gene_100",
+      "type": "integer"
+    },
+    {
+      "name": "gene_101",
+      "type": "integer"
+    },
+    {
+      "name": "gene_102",
+      "type": "integer"
+    },
+    {
+      "name": "gene_103",
+      "type": "integer"
+    },
+    {
+      "name": "gene_104",
+      "type": "integer"
+    },
+    {
+      "name": "gene_105",
+      "type": "integer"
+    },
+    {
+      "name": "gene_106",
+      "type": "integer"
+    },
+    {
+      "name": "gene_107",
+      "type": "integer"
+    },
+    {
+      "name": "gene_108",
+      "type": "integer"
+    },
+    {
+      "name": "gene_109",
+      "type": "integer"
+    },
+    {
+      "name": "gene_110",
+      "type": "integer"
+    },
+    {
+      "name": "gene_111",
+      "type": "integer"
+    },
+    {
+      "name": "gene_112",
+      "type": "integer"
+    },
+    {
+      "name": "gene_113",
+      "type": "integer"
+    },
+    {
+      "name": "gene_114",
+      "type": "integer"
+    },
+    {
+      "name": "gene_115",
+      "type": "integer"
+    },
+    {
+      "name": "gene_116",
+      "type": "integer"
+    },
+    {
+      "name": "gene_117",
+      "type": "integer"
+    },
+    {
+      "name": "gene_118",
+      "type": "integer"
+    },
+    {
+      "name": "gene_119",
+      "type": "integer"
+    },
+    {
+      "name": "gene_120",
+      "type": "integer"
+    },
+    {
+      "name": "gene_121",
+      "type": "integer"
+    },
+    {
+      "name": "gene_122",
+      "type": "integer"
+    },
+    {
+      "name": "gene_123",
+      "type": "integer"
+    },
+    {
+      "name": "gene_124",
+      "type": "integer"
+    },
+    {
+      "name": "gene_125",
+      "type": "integer"
+    },
+    {
+      "name": "gene_126",
+      "type": "integer"
+    },
+    {
+      "name": "gene_127",
+      "type": "integer"
+    },
+    {
+      "name": "gene_128",
+      "type": "integer"
+    },
+    {
+      "name": "gene_129",
+      "type": "integer"
+    },
+    {
+      "name": "gene_130",
+      "type": "integer"
+    },
+    {
+      "name": "gene_131",
+      "type": "integer"
+    },
+    {
+      "name": "gene_132",
+      "type": "integer"
+    },
+    {
+      "name": "gene_133",
+      "type": "integer"
+    },
+    {
+      "name": "gene_134",
+      "type": "integer"
+    },
+    {
+      "name": "gene_135",
+      "type": "integer"
+    },
+    {
+      "name": "gene_136",
+      "type": "integer"
+    },
+    {
+      "name": "gene_137",
+      "type": "integer"
+    },
+    {
+      "name": "gene_138",
+      "type": "integer"
+    },
+    {
+      "name": "gene_139",
+      "type": "integer"
+    },
+    {
+      "name": "gene_140",
+      "type": "integer"
+    },
+    {
+      "name": "gene_141",
+      "type": "integer"
+    },
+    {
+      "name": "gene_142",
+      "type": "integer"
+    },
+    {
+      "name": "gene_143",
+      "type": "integer"
+    },
+    {
+      "name": "gene_144",
+      "type": "integer"
+    },
+    {
+      "name": "gene_145",
+      "type": "integer"
+    },
+    {
+      "name": "gene_146",
+      "type": "integer"
+    },
+    {
+      "name": "gene_147",
+      "type": "integer"
+    },
+    {
+      "name": "gene_148",
+      "type": "integer"
+    },
+    {
+      "name": "gene_149",
+      "type": "integer"
+    },
+    {
+      "name": "gene_150",
+      "type": "integer"
+    },
+    {
+      "name": "gene_151",
+      "type": "integer"
+    },
+    {
+      "name": "gene_152",
+      "type": "integer"
+    },
+    {
+      "name": "gene_153",
+      "type": "integer"
+    },
+    {
+      "name": "gene_154",
+      "type": "integer"
+    },
+    {
+      "name": "gene_155",
+      "type": "integer"
+    },
+    {
+      "name": "gene_156",
+      "type": "integer"
+    },
+    {
+      "name": "gene_157",
+      "type": "integer"
+    },
+    {
+      "name": "gene_158",
+      "type": "integer"
+    },
+    {
+      "name": "gene_159",
+      "type": "integer"
+    },
+    {
+      "name": "gene_160",
+      "type": "integer"
+    },
+    {
+      "name": "gene_161",
+      "type": "integer"
+    },
+    {
+      "name": "gene_162",
+      "type": "integer"
+    },
+    {
+      "name": "gene_163",
+      "type": "integer"
+    },
+    {
+      "name": "gene_164",
+      "type": "integer"
+    },
+    {
+      "name": "gene_165",
+      "type": "integer"
+    },
+    {
+      "name": "gene_166",
+      "type": "integer"
+    },
+    {
+      "name": "gene_167",
+      "type": "integer"
+    },
+    {
+      "name": "gene_168",
+      "type": "integer"
+    },
+    {
+      "name": "gene_169",
+      "type": "integer"
+    },
+    {
+      "name": "gene_170",
+      "type": "integer"
+    },
+    {
+      "name": "gene_171",
+      "type": "integer"
+    },
+    {
+      "name": "gene_172",
+      "type": "integer"
+    },
+    {
+      "name": "gene_173",
+      "type": "integer"
+    },
+    {
+      "name": "gene_174",
+      "type": "integer"
+    },
+    {
+      "name": "gene_175",
+      "type": "integer"
+    },
+    {
+      "name": "gene_176",
+      "type": "integer"
+    },
+    {
+      "name": "gene_177",
+      "type": "integer"
+    },
+    {
+      "name": "gene_178",
+      "type": "integer"
+    },
+    {
+      "name": "gene_179",
+      "type": "integer"
+    },
+    {
+      "name": "gene_180",
+      "type": "integer"
+    },
+    {
+      "name": "gene_181",
+      "type": "integer"
+    },
+    {
+      "name": "gene_182",
+      "type": "integer"
+    },
+    {
+      "name": "gene_183",
+      "type": "integer"
+    },
+    {
+      "name": "gene_184",
+      "type": "integer"
+    },
+    {
+      "name": "gene_185",
+      "type": "integer"
+    },
+    {
+      "name": "gene_186",
+      "type": "integer"
+    },
+    {
+      "name": "gene_187",
+      "type": "integer"
+    },
+    {
+      "name": "gene_188",
+      "type": "integer"
+    },
+    {
+      "name": "gene_189",
+      "type": "integer"
+    },
+    {
+      "name": "gene_190",
+      "type": "integer"
+    },
+    {
+      "name": "gene_191",
+      "type": "integer"
+    },
+    {
+      "name": "gene_192",
+      "type": "integer"
+    },
+    {
+      "name": "gene_193",
+      "type": "integer"
+    },
+    {
+      "name": "gene_194",
+      "type": "integer"
+    },
+    {
+      "name": "gene_195",
+      "type": "integer"
+    },
+    {
+      "name": "gene_196",
+      "type": "integer"
+    },
+    {
+      "name": "gene_197",
+      "type": "integer"
+    },
+    {
+      "name": "gene_198",
+      "type": "integer"
+    },
+    {
+      "name": "gene_199",
+      "type": "integer"
+    },
+    {
+      "name": "gene_200",
+      "type": "integer"
+    },
+    {
+      "name": "gene_201",
+      "type": "integer"
+    },
+    {
+      "name": "gene_202",
+      "type": "integer"
+    },
+    {
+      "name": "gene_203",
+      "type": "integer"
+    },
+    {
+      "name": "gene_204",
+      "type": "integer"
+    },
+    {
+      "name": "gene_205",
+      "type": "integer"
+    },
+    {
+      "name": "gene_206",
+      "type": "integer"
+    },
+    {
+      "name": "gene_207",
+      "type": "integer"
+    },
+    {
+      "name": "gene_208",
+      "type": "integer"
+    },
+    {
+      "name": "gene_209",
+      "type": "integer"
+    },
+    {
+      "name": "gene_210",
+      "type": "integer"
+    },
+    {
+      "name": "gene_211",
+      "type": "integer"
+    },
+    {
+      "name": "gene_212",
+      "type": "integer"
+    },
+    {
+      "name": "gene_213",
+      "type": "integer"
+    },
+    {
+      "name": "gene_214",
+      "type": "integer"
+    },
+    {
+      "name": "gene_215",
+      "type": "integer"
+    },
+    {
+      "name": "gene_216",
+      "type": "integer"
+    },
+    {
+      "name": "gene_217",
+      "type": "integer"
+    },
+    {
+      "name": "gene_218",
+      "type": "integer"
+    },
+    {
+      "name": "gene_219",
+      "type": "integer"
+    },
+    {
+      "name": "gene_220",
+      "type": "integer"
+    },
+    {
+      "name": "gene_221",
+      "type": "integer"
+    },
+    {
+      "name": "gene_222",
+      "type": "integer"
+    },
+    {
+      "name": "gene_223",
+      "type": "integer"
+    },
+    {
+      "name": "gene_224",
+      "type": "integer"
+    },
+    {
+      "name": "gene_225",
+      "type": "integer"
+    },
+    {
+      "name": "gene_226",
+      "type": "integer"
+    },
+    {
+      "name": "gene_227",
+      "type": "integer"
+    },
+    {
+      "name": "gene_228",
+      "type": "integer"
+    },
+    {
+      "name": "gene_229",
+      "type": "integer"
+    },
+    {
+      "name": "gene_230",
+      "type": "integer"
+    },
+    {
+      "name": "gene_231",
+      "type": "integer"
+    },
+    {
+      "name": "gene_232",
+      "type": "integer"
+    },
+    {
+      "name": "gene_233",
+      "type": "integer"
+    },
+    {
+      "name": "gene_234",
+      "type": "integer"
+    },
+    {
+      "name": "gene_235",
+      "type": "integer"
+    },
+    {
+      "name": "gene_236",
+      "type": "integer"
+    },
+    {
+      "name": "gene_237",
+      "type": "integer"
+    },
+    {
+      "name": "gene_238",
+      "type": "integer"
+    },
+    {
+      "name": "gene_239",
+      "type": "integer"
+    },
+    {
+      "name": "gene_240",
+      "type": "integer"
+    },
+    {
+      "name": "gene_241",
+      "type": "integer"
+    },
+    {
+      "name": "gene_242",
+      "type": "integer"
+    },
+    {
+      "name": "gene_243",
+      "type": "integer"
+    },
+    {
+      "name": "gene_244",
+      "type": "integer"
+    },
+    {
+      "name": "gene_245",
+      "type": "integer"
+    },
+    {
+      "name": "gene_246",
+      "type": "integer"
+    },
+    {
+      "name": "gene_247",
+      "type": "integer"
+    },
+    {
+      "name": "gene_248",
+      "type": "integer"
+    },
+    {
+      "name": "gene_249",
+      "type": "integer"
+    },
+    {
+      "name": "gene_250",
+      "type": "integer"
+    },
+    {
+      "name": "gene_251",
+      "type": "integer"
+    },
+    {
+      "name": "gene_252",
+      "type": "integer"
+    },
+    {
+      "name": "gene_253",
+      "type": "integer"
+    },
+    {
+      "name": "gene_254",
+      "type": "integer"
+    },
+    {
+      "name": "gene_255",
+      "type": "integer"
+    },
+    {
+      "name": "gene_256",
+      "type": "integer"
+    },
+    {
+      "name": "gene_257",
+      "type": "integer"
+    },
+    {
+      "name": "gene_258",
+      "type": "integer"
+    },
+    {
+      "name": "gene_259",
+      "type": "integer"
+    },
+    {
+      "name": "gene_260",
+      "type": "integer"
+    },
+    {
+      "name": "gene_261",
+      "type": "integer"
+    },
+    {
+      "name": "gene_262",
+      "type": "integer"
+    },
+    {
+      "name": "gene_263",
+      "type": "integer"
+    },
+    {
+      "name": "gene_264",
+      "type": "integer"
+    },
+    {
+      "name": "gene_265",
+      "type": "integer"
+    },
+    {
+      "name": "gene_266",
+      "type": "integer"
+    },
+    {
+      "name": "gene_267",
+      "type": "integer"
+    },
+    {
+      "name": "gene_268",
+      "type": "integer"
+    },
+    {
+      "name": "gene_269",
+      "type": "integer"
+    },
+    {
+      "name": "gene_270",
+      "type": "integer"
+    },
+    {
+      "name": "gene_271",
+      "type": "integer"
+    },
+    {
+      "name": "gene_272",
+      "type": "integer"
+    },
+    {
+      "name": "gene_273",
+      "type": "integer"
+    },
+    {
+      "name": "gene_274",
+      "type": "integer"
+    },
+    {
+      "name": "gene_275",
+      "type": "integer"
+    },
+    {
+      "name": "gene_276",
+      "type": "integer"
+    },
+    {
+      "name": "gene_277",
+      "type": "integer"
+    },
+    {
+      "name": "gene_278",
+      "type": "integer"
+    },
+    {
+      "name": "gene_279",
+      "type": "integer"
+    },
+    {
+      "name": "gene_280",
+      "type": "integer"
+    },
+    {
+      "name": "gene_281",
+      "type": "integer"
+    },
+    {
+      "name": "gene_282",
+      "type": "integer"
+    },
+    {
+      "name": "gene_283",
+      "type": "integer"
+    },
+    {
+      "name": "gene_284",
+      "type": "integer"
+    },
+    {
+      "name": "gene_285",
+      "type": "integer"
+    },
+    {
+      "name": "gene_286",
+      "type": "integer"
+    },
+    {
+      "name": "gene_287",
+      "type": "integer"
+    },
+    {
+      "name": "gene_288",
+      "type": "integer"
+    },
+    {
+      "name": "gene_289",
+      "type": "integer"
+    },
+    {
+      "name": "gene_290",
+      "type": "integer"
+    },
+    {
+      "name": "gene_291",
+      "type": "integer"
+    },
+    {
+      "name": "gene_292",
+      "type": "integer"
+    },
+    {
+      "name": "gene_293",
+      "type": "integer"
+    },
+    {
+      "name": "gene_294",
+      "type": "integer"
+    },
+    {
+      "name": "gene_295",
+      "type": "integer"
+    },
+    {
+      "name": "gene_296",
+      "type": "integer"
+    },
+    {
+      "name": "gene_297",
+      "type": "integer"
+    },
+    {
+      "name": "gene_298",
+      "type": "integer"
+    },
+    {
+      "name": "gene_299",
+      "type": "integer"
+    },
+    {
+      "name": "gene_300",
+      "type": "integer"
+    },
+    {
+      "name": "gene_301",
+      "type": "integer"
+    },
+    {
+      "name": "gene_302",
+      "type": "integer"
+    },
+    {
+      "name": "gene_303",
+      "type": "integer"
+    },
+    {
+      "name": "gene_304",
+      "type": "integer"
+    },
+    {
+      "name": "gene_305",
+      "type": "integer"
+    },
+    {
+      "name": "gene_306",
+      "type": "integer"
+    },
+    {
+      "name": "gene_307",
+      "type": "integer"
+    },
+    {
+      "name": "gene_308",
+      "type": "integer"
+    },
+    {
+      "name": "gene_309",
+      "type": "integer"
+    },
+    {
+      "name": "gene_310",
+      "type": "integer"
+    },
+    {
+      "name": "gene_311",
+      "type": "integer"
+    },
+    {
+      "name": "gene_312",
+      "type": "integer"
+    },
+    {
+      "name": "gene_313",
+      "type": "integer"
+    },
+    {
+      "name": "gene_314",
+      "type": "integer"
+    },
+    {
+      "name": "gene_315",
+      "type": "integer"
+    },
+    {
+      "name": "gene_316",
+      "type": "integer"
+    },
+    {
+      "name": "gene_317",
+      "type": "integer"
+    },
+    {
+      "name": "gene_318",
+      "type": "integer"
+    },
+    {
+      "name": "gene_319",
+      "type": "integer"
+    },
+    {
+      "name": "gene_320",
+      "type": "integer"
+    },
+    {
+      "name": "gene_321",
+      "type": "integer"
+    },
+    {
+      "name": "gene_322",
+      "type": "integer"
+    },
+    {
+      "name": "gene_323",
+      "type": "integer"
+    },
+    {
+      "name": "gene_324",
+      "type": "integer"
+    },
+    {
+      "name": "gene_325",
+      "type": "integer"
+    },
+    {
+      "name": "gene_326",
+      "type": "integer"
+    },
+    {
+      "name": "gene_327",
+      "type": "integer"
+    },
+    {
+      "name": "gene_328",
+      "type": "integer"
+    },
+    {
+      "name": "gene_329",
+      "type": "integer"
+    },
+    {
+      "name": "gene_330",
+      "type": "integer"
+    },
+    {
+      "name": "gene_331",
+      "type": "integer"
+    },
+    {
+      "name": "gene_332",
+      "type": "integer"
+    },
+    {
+      "name": "gene_333",
+      "type": "integer"
+    },
+    {
+      "name": "gene_334",
+      "type": "integer"
+    },
+    {
+      "name": "gene_335",
+      "type": "integer"
+    },
+    {
+      "name": "gene_336",
+      "type": "integer"
+    },
+    {
+      "name": "gene_337",
+      "type": "integer"
+    },
+    {
+      "name": "gene_338",
+      "type": "integer"
+    },
+    {
+      "name": "gene_339",
+      "type": "integer"
+    },
+    {
+      "name": "gene_340",
+      "type": "integer"
+    },
+    {
+      "name": "gene_341",
+      "type": "integer"
+    },
+    {
+      "name": "gene_342",
+      "type": "integer"
+    },
+    {
+      "name": "gene_343",
+      "type": "integer"
+    },
+    {
+      "name": "gene_344",
+      "type": "integer"
+    },
+    {
+      "name": "gene_345",
+      "type": "integer"
+    },
+    {
+      "name": "gene_346",
+      "type": "integer"
+    },
+    {
+      "name": "gene_347",
+      "type": "integer"
+    },
+    {
+      "name": "gene_348",
+      "type": "integer"
+    },
+    {
+      "name": "gene_349",
+      "type": "integer"
+    },
+    {
+      "name": "gene_350",
+      "type": "integer"
+    },
+    {
+      "name": "gene_351",
+      "type": "integer"
+    },
+    {
+      "name": "gene_352",
+      "type": "integer"
+    },
+    {
+      "name": "gene_353",
+      "type": "integer"
+    },
+    {
+      "name": "gene_354",
+      "type": "integer"
+    },
+    {
+      "name": "gene_355",
+      "type": "integer"
+    },
+    {
+      "name": "gene_356",
+      "type": "integer"
+    },
+    {
+      "name": "gene_357",
+      "type": "integer"
+    },
+    {
+      "name": "gene_358",
+      "type": "integer"
+    },
+    {
+      "name": "gene_359",
+      "type": "integer"
+    },
+    {
+      "name": "gene_360",
+      "type": "integer"
+    },
+    {
+      "name": "gene_361",
+      "type": "integer"
+    },
+    {
+      "name": "gene_362",
+      "type": "integer"
+    },
+    {
+      "name": "gene_363",
+      "type": "integer"
+    },
+    {
+      "name": "gene_364",
+      "type": "integer"
+    },
+    {
+      "name": "gene_365",
+      "type": "integer"
+    },
+    {
+      "name": "gene_366",
+      "type": "integer"
+    },
+    {
+      "name": "gene_367",
+      "type": "integer"
+    },
+    {
+      "name": "gene_368",
+      "type": "integer"
+    },
+    {
+      "name": "gene_369",
+      "type": "integer"
+    },
+    {
+      "name": "gene_370",
+      "type": "integer"
+    },
+    {
+      "name": "gene_371",
+      "type": "integer"
+    },
+    {
+      "name": "gene_372",
+      "type": "integer"
+    },
+    {
+      "name": "gene_373",
+      "type": "integer"
+    },
+    {
+      "name": "gene_374",
+      "type": "integer"
+    },
+    {
+      "name": "gene_375",
+      "type": "integer"
+    },
+    {
+      "name": "gene_376",
+      "type": "integer"
+    },
+    {
+      "name": "gene_377",
+      "type": "integer"
+    },
+    {
+      "name": "gene_378",
+      "type": "integer"
+    },
+    {
+      "name": "gene_379",
+      "type": "integer"
+    },
+    {
+      "name": "gene_380",
+      "type": "integer"
+    },
+    {
+      "name": "gene_381",
+      "type": "integer"
+    },
+    {
+      "name": "gene_382",
+      "type": "integer"
+    },
+    {
+      "name": "gene_383",
+      "type": "integer"
+    },
+    {
+      "name": "gene_384",
+      "type": "integer"
+    },
+    {
+      "name": "gene_385",
+      "type": "integer"
+    },
+    {
+      "name": "gene_386",
+      "type": "integer"
+    },
+    {
+      "name": "gene_387",
+      "type": "integer"
+    },
+    {
+      "name": "gene_388",
+      "type": "integer"
+    },
+    {
+      "name": "gene_389",
+      "type": "integer"
+    },
+    {
+      "name": "gene_390",
+      "type": "integer"
+    },
+    {
+      "name": "gene_391",
+      "type": "integer"
+    },
+    {
+      "name": "gene_392",
+      "type": "integer"
+    },
+    {
+      "name": "gene_393",
+      "type": "integer"
+    },
+    {
+      "name": "gene_394",
+      "type": "integer"
+    },
+    {
+      "name": "gene_395",
+      "type": "integer"
+    },
+    {
+      "name": "gene_396",
+      "type": "integer"
+    },
+    {
+      "name": "gene_397",
+      "type": "integer"
+    },
+    {
+      "name": "gene_398",
+      "type": "integer"
+    },
+    {
+      "name": "gene_399",
+      "type": "integer"
+    },
+    {
+      "name": "gene_400",
+      "type": "integer"
+    },
+    {
+      "name": "gene_401",
+      "type": "integer"
+    },
+    {
+      "name": "gene_402",
+      "type": "integer"
+    },
+    {
+      "name": "gene_403",
+      "type": "integer"
+    },
+    {
+      "name": "gene_404",
+      "type": "integer"
+    },
+    {
+      "name": "gene_405",
+      "type": "integer"
+    },
+    {
+      "name": "gene_406",
+      "type": "integer"
+    },
+    {
+      "name": "gene_407",
+      "type": "integer"
+    },
+    {
+      "name": "gene_408",
+      "type": "integer"
+    },
+    {
+      "name": "gene_409",
+      "type": "integer"
+    },
+    {
+      "name": "gene_410",
+      "type": "integer"
+    },
+    {
+      "name": "gene_411",
+      "type": "integer"
+    },
+    {
+      "name": "gene_412",
+      "type": "integer"
+    },
+    {
+      "name": "gene_413",
+      "type": "integer"
+    },
+    {
+      "name": "gene_414",
+      "type": "integer"
+    },
+    {
+      "name": "gene_415",
+      "type": "integer"
+    },
+    {
+      "name": "gene_416",
+      "type": "integer"
+    },
+    {
+      "name": "gene_417",
+      "type": "integer"
+    },
+    {
+      "name": "gene_418",
+      "type": "integer"
+    },
+    {
+      "name": "gene_419",
+      "type": "integer"
+    },
+    {
+      "name": "gene_420",
+      "type": "integer"
+    },
+    {
+      "name": "gene_421",
+      "type": "integer"
+    },
+    {
+      "name": "gene_422",
+      "type": "integer"
+    },
+    {
+      "name": "gene_423",
+      "type": "integer"
+    },
+    {
+      "name": "gene_424",
+      "type": "integer"
+    },
+    {
+      "name": "gene_425",
+      "type": "integer"
+    },
+    {
+      "name": "gene_426",
+      "type": "integer"
+    },
+    {
+      "name": "gene_427",
+      "type": "integer"
+    },
+    {
+      "name": "gene_428",
+      "type": "integer"
+    },
+    {
+      "name": "gene_429",
+      "type": "integer"
+    },
+    {
+      "name": "gene_430",
+      "type": "integer"
+    },
+    {
+      "name": "gene_431",
+      "type": "integer"
+    },
+    {
+      "name": "gene_432",
+      "type": "integer"
+    },
+    {
+      "name": "gene_433",
+      "type": "integer"
+    },
+    {
+      "name": "gene_434",
+      "type": "integer"
+    },
+    {
+      "name": "gene_435",
+      "type": "integer"
+    },
+    {
+      "name": "gene_436",
+      "type": "integer"
+    },
+    {
+      "name": "gene_437",
+      "type": "integer"
+    },
+    {
+      "name": "gene_438",
+      "type": "integer"
+    },
+    {
+      "name": "gene_439",
+      "type": "integer"
+    },
+    {
+      "name": "gene_440",
+      "type": "integer"
+    },
+    {
+      "name": "gene_441",
+      "type": "integer"
+    },
+    {
+      "name": "gene_442",
+      "type": "integer"
+    },
+    {
+      "name": "gene_443",
+      "type": "integer"
+    },
+    {
+      "name": "gene_444",
+      "type": "integer"
+    },
+    {
+      "name": "gene_445",
+      "type": "integer"
+    },
+    {
+      "name": "gene_446",
+      "type": "integer"
+    },
+    {
+      "name": "gene_447",
+      "type": "integer"
+    },
+    {
+      "name": "gene_448",
+      "type": "integer"
+    },
+    {
+      "name": "gene_449",
+      "type": "integer"
+    },
+    {
+      "name": "gene_450",
+      "type": "integer"
+    },
+    {
+      "name": "gene_451",
+      "type": "integer"
+    },
+    {
+      "name": "gene_452",
+      "type": "integer"
+    },
+    {
+      "name": "gene_453",
+      "type": "integer"
+    },
+    {
+      "name": "gene_454",
+      "type": "integer"
+    },
+    {
+      "name": "gene_455",
+      "type": "integer"
+    },
+    {
+      "name": "gene_456",
+      "type": "integer"
+    },
+    {
+      "name": "gene_457",
+      "type": "integer"
+    },
+    {
+      "name": "gene_458",
+      "type": "integer"
+    },
+    {
+      "name": "gene_459",
+      "type": "integer"
+    },
+    {
+      "name": "gene_460",
+      "type": "integer"
+    },
+    {
+      "name": "gene_461",
+      "type": "integer"
+    },
+    {
+      "name": "gene_462",
+      "type": "integer"
+    },
+    {
+      "name": "gene_463",
+      "type": "integer"
+    },
+    {
+      "name": "gene_464",
+      "type": "integer"
+    },
+    {
+      "name": "gene_465",
+      "type": "integer"
+    },
+    {
+      "name": "gene_466",
+      "type": "integer"
+    },
+    {
+      "name": "gene_467",
+      "type": "integer"
+    },
+    {
+      "name": "gene_468",
+      "type": "integer"
+    },
+    {
+      "name": "gene_469",
+      "type": "integer"
+    },
+    {
+      "name": "gene_470",
+      "type": "integer"
+    },
+    {
+      "name": "gene_471",
+      "type": "integer"
+    },
+    {
+      "name": "gene_472",
+      "type": "integer"
+    },
+    {
+      "name": "gene_473",
+      "type": "integer"
+    },
+    {
+      "name": "gene_474",
+      "type": "integer"
+    },
+    {
+      "name": "gene_475",
+      "type": "integer"
+    },
+    {
+      "name": "gene_476",
+      "type": "integer"
+    },
+    {
+      "name": "gene_477",
+      "type": "integer"
+    },
+    {
+      "name": "gene_478",
+      "type": "integer"
+    },
+    {
+      "name": "gene_479",
+      "type": "integer"
+    },
+    {
+      "name": "gene_480",
+      "type": "integer"
+    },
+    {
+      "name": "gene_481",
+      "type": "integer"
+    },
+    {
+      "name": "gene_482",
+      "type": "integer"
+    },
+    {
+      "name": "gene_483",
+      "type": "integer"
+    },
+    {
+      "name": "gene_484",
+      "type": "integer"
+    },
+    {
+      "name": "gene_485",
+      "type": "integer"
+    },
+    {
+      "name": "gene_486",
+      "type": "integer"
+    },
+    {
+      "name": "gene_487",
+      "type": "integer"
+    },
+    {
+      "name": "gene_488",
+      "type": "integer"
+    },
+    {
+      "name": "gene_489",
+      "type": "integer"
+    },
+    {
+      "name": "gene_490",
+      "type": "integer"
+    },
+    {
+      "name": "gene_491",
+      "type": "integer"
+    },
+    {
+      "name": "gene_492",
+      "type": "integer"
+    },
+    {
+      "name": "gene_493",
+      "type": "integer"
+    },
+    {
+      "name": "gene_494",
+      "type": "integer"
+    },
+    {
+      "name": "gene_495",
+      "type": "integer"
+    },
+    {
+      "name": "gene_496",
+      "type": "integer"
+    },
+    {
+      "name": "gene_497",
+      "type": "integer"
+    },
+    {
+      "name": "gene_498",
+      "type": "integer"
+    },
+    {
+      "name": "gene_499",
+      "type": "integer"
+    },
+    {
+      "name": "gene_500",
+      "type": "integer"
+    },
+    {
+      "name": "gene_501",
+      "type": "integer"
+    },
+    {
+      "name": "gene_502",
+      "type": "integer"
+    },
+    {
+      "name": "gene_503",
+      "type": "integer"
+    },
+    {
+      "name": "gene_504",
+      "type": "integer"
+    },
+    {
+      "name": "gene_505",
+      "type": "integer"
+    },
+    {
+      "name": "gene_506",
+      "type": "integer"
+    },
+    {
+      "name": "gene_507",
+      "type": "integer"
+    },
+    {
+      "name": "gene_508",
+      "type": "integer"
+    },
+    {
+      "name": "gene_509",
+      "type": "integer"
+    },
+    {
+      "name": "gene_510",
+      "type": "integer"
+    },
+    {
+      "name": "gene_511",
+      "type": "integer"
+    },
+    {
+      "name": "gene_512",
+      "type": "integer"
+    },
+    {
+      "name": "gene_513",
+      "type": "integer"
+    },
+    {
+      "name": "gene_514",
+      "type": "integer"
+    },
+    {
+      "name": "gene_515",
+      "type": "integer"
+    },
+    {
+      "name": "gene_516",
+      "type": "integer"
+    },
+    {
+      "name": "gene_517",
+      "type": "integer"
+    },
+    {
+      "name": "gene_518",
+      "type": "integer"
+    },
+    {
+      "name": "gene_519",
+      "type": "integer"
+    },
+    {
+      "name": "gene_520",
+      "type": "integer"
+    },
+    {
+      "name": "gene_521",
+      "type": "integer"
+    },
+    {
+      "name": "gene_522",
+      "type": "integer"
+    },
+    {
+      "name": "gene_523",
+      "type": "integer"
+    },
+    {
+      "name": "gene_524",
+      "type": "integer"
+    },
+    {
+      "name": "gene_525",
+      "type": "integer"
+    },
+    {
+      "name": "gene_526",
+      "type": "integer"
+    },
+    {
+      "name": "gene_527",
+      "type": "integer"
+    },
+    {
+      "name": "gene_528",
+      "type": "integer"
+    },
+    {
+      "name": "gene_529",
+      "type": "integer"
+    },
+    {
+      "name": "gene_530",
+      "type": "integer"
+    },
+    {
+      "name": "gene_531",
+      "type": "integer"
+    },
+    {
+      "name": "gene_532",
+      "type": "integer"
+    },
+    {
+      "name": "gene_533",
+      "type": "integer"
+    },
+    {
+      "name": "gene_534",
+      "type": "integer"
+    },
+    {
+      "name": "gene_535",
+      "type": "integer"
+    },
+    {
+      "name": "gene_536",
+      "type": "integer"
+    },
+    {
+      "name": "gene_537",
+      "type": "integer"
+    },
+    {
+      "name": "gene_538",
+      "type": "integer"
+    },
+    {
+      "name": "gene_539",
+      "type": "integer"
+    },
+    {
+      "name": "gene_540",
+      "type": "integer"
+    },
+    {
+      "name": "gene_541",
+      "type": "integer"
+    },
+    {
+      "name": "gene_542",
+      "type": "integer"
+    },
+    {
+      "name": "gene_543",
+      "type": "integer"
+    },
+    {
+      "name": "gene_544",
+      "type": "integer"
+    },
+    {
+      "name": "gene_545",
+      "type": "integer"
+    },
+    {
+      "name": "gene_546",
+      "type": "integer"
+    },
+    {
+      "name": "gene_547",
+      "type": "integer"
+    },
+    {
+      "name": "gene_548",
+      "type": "integer"
+    },
+    {
+      "name": "gene_549",
+      "type": "integer"
+    },
+    {
+      "name": "gene_550",
+      "type": "integer"
+    },
+    {
+      "name": "gene_551",
+      "type": "integer"
+    },
+    {
+      "name": "gene_552",
+      "type": "integer"
+    },
+    {
+      "name": "gene_553",
+      "type": "integer"
+    },
+    {
+      "name": "gene_554",
+      "type": "integer"
+    },
+    {
+      "name": "gene_555",
+      "type": "integer"
+    },
+    {
+      "name": "gene_556",
+      "type": "integer"
+    },
+    {
+      "name": "gene_557",
+      "type": "integer"
+    },
+    {
+      "name": "gene_558",
+      "type": "integer"
+    },
+    {
+      "name": "gene_559",
+      "type": "integer"
+    },
+    {
+      "name": "gene_560",
+      "type": "integer"
+    },
+    {
+      "name": "gene_561",
+      "type": "integer"
+    },
+    {
+      "name": "gene_562",
+      "type": "integer"
+    },
+    {
+      "name": "gene_563",
+      "type": "integer"
+    },
+    {
+      "name": "gene_564",
+      "type": "integer"
+    },
+    {
+      "name": "gene_565",
+      "type": "integer"
+    },
+    {
+      "name": "gene_566",
+      "type": "integer"
+    },
+    {
+      "name": "gene_567",
+      "type": "integer"
+    },
+    {
+      "name": "gene_568",
+      "type": "integer"
+    },
+    {
+      "name": "gene_569",
+      "type": "integer"
+    },
+    {
+      "name": "gene_570",
+      "type": "integer"
+    },
+    {
+      "name": "gene_571",
+      "type": "integer"
+    },
+    {
+      "name": "gene_572",
+      "type": "integer"
+    },
+    {
+      "name": "gene_573",
+      "type": "integer"
+    },
+    {
+      "name": "gene_574",
+      "type": "integer"
+    },
+    {
+      "name": "gene_575",
+      "type": "integer"
+    },
+    {
+      "name": "gene_576",
+      "type": "integer"
+    },
+    {
+      "name": "gene_577",
+      "type": "integer"
+    },
+    {
+      "name": "gene_578",
+      "type": "integer"
+    },
+    {
+      "name": "gene_579",
+      "type": "integer"
+    },
+    {
+      "name": "gene_580",
+      "type": "integer"
+    },
+    {
+      "name": "gene_581",
+      "type": "integer"
+    },
+    {
+      "name": "gene_582",
+      "type": "integer"
+    },
+    {
+      "name": "gene_583",
+      "type": "integer"
+    },
+    {
+      "name": "gene_584",
+      "type": "integer"
+    },
+    {
+      "name": "gene_585",
+      "type": "integer"
+    },
+    {
+      "name": "gene_586",
+      "type": "integer"
+    },
+    {
+      "name": "gene_587",
+      "type": "integer"
+    },
+    {
+      "name": "gene_588",
+      "type": "integer"
+    },
+    {
+      "name": "gene_589",
+      "type": "integer"
+    },
+    {
+      "name": "gene_590",
+      "type": "integer"
+    },
+    {
+      "name": "gene_591",
+      "type": "integer"
+    },
+    {
+      "name": "gene_592",
+      "type": "integer"
+    },
+    {
+      "name": "gene_593",
+      "type": "integer"
+    },
+    {
+      "name": "gene_594",
+      "type": "integer"
+    },
+    {
+      "name": "gene_595",
+      "type": "integer"
+    },
+    {
+      "name": "gene_596",
+      "type": "integer"
+    },
+    {
+      "name": "gene_597",
+      "type": "integer"
+    },
+    {
+      "name": "gene_598",
+      "type": "integer"
+    },
+    {
+      "name": "gene_599",
+      "type": "integer"
+    },
+    {
+      "name": "gene_600",
+      "type": "integer"
+    },
+    {
+      "name": "gene_601",
+      "type": "integer"
+    },
+    {
+      "name": "gene_602",
+      "type": "integer"
+    },
+    {
+      "name": "gene_603",
+      "type": "integer"
+    },
+    {
+      "name": "gene_604",
+      "type": "integer"
+    },
+    {
+      "name": "gene_605",
+      "type": "integer"
+    },
+    {
+      "name": "gene_606",
+      "type": "integer"
+    },
+    {
+      "name": "gene_607",
+      "type": "integer"
+    },
+    {
+      "name": "gene_608",
+      "type": "integer"
+    },
+    {
+      "name": "gene_609",
+      "type": "integer"
+    },
+    {
+      "name": "gene_610",
+      "type": "integer"
+    },
+    {
+      "name": "gene_611",
+      "type": "integer"
+    },
+    {
+      "name": "gene_612",
+      "type": "integer"
+    },
+    {
+      "name": "gene_613",
+      "type": "integer"
+    },
+    {
+      "name": "gene_614",
+      "type": "integer"
+    },
+    {
+      "name": "gene_615",
+      "type": "integer"
+    },
+    {
+      "name": "gene_616",
+      "type": "integer"
+    },
+    {
+      "name": "gene_617",
+      "type": "integer"
+    },
+    {
+      "name": "gene_618",
+      "type": "integer"
+    },
+    {
+      "name": "gene_619",
+      "type": "integer"
+    },
+    {
+      "name": "gene_620",
+      "type": "integer"
+    },
+    {
+      "name": "gene_621",
+      "type": "integer"
+    },
+    {
+      "name": "gene_622",
+      "type": "integer"
+    },
+    {
+      "name": "gene_623",
+      "type": "integer"
+    },
+    {
+      "name": "gene_624",
+      "type": "integer"
+    },
+    {
+      "name": "gene_625",
+      "type": "integer"
+    },
+    {
+      "name": "gene_626",
+      "type": "integer"
+    },
+    {
+      "name": "gene_627",
+      "type": "integer"
+    },
+    {
+      "name": "gene_628",
+      "type": "integer"
+    },
+    {
+      "name": "gene_629",
+      "type": "integer"
+    },
+    {
+      "name": "gene_630",
+      "type": "integer"
+    },
+    {
+      "name": "gene_631",
+      "type": "integer"
+    },
+    {
+      "name": "gene_632",
+      "type": "integer"
+    },
+    {
+      "name": "gene_633",
+      "type": "integer"
+    },
+    {
+      "name": "gene_634",
+      "type": "integer"
+    },
+    {
+      "name": "gene_635",
+      "type": "integer"
+    },
+    {
+      "name": "gene_636",
+      "type": "integer"
+    },
+    {
+      "name": "gene_637",
+      "type": "integer"
+    },
+    {
+      "name": "gene_638",
+      "type": "integer"
+    },
+    {
+      "name": "gene_639",
+      "type": "integer"
+    },
+    {
+      "name": "gene_640",
+      "type": "integer"
+    },
+    {
+      "name": "gene_641",
+      "type": "integer"
+    },
+    {
+      "name": "gene_642",
+      "type": "integer"
+    },
+    {
+      "name": "gene_643",
+      "type": "integer"
+    },
+    {
+      "name": "gene_644",
+      "type": "integer"
+    },
+    {
+      "name": "gene_645",
+      "type": "integer"
+    },
+    {
+      "name": "gene_646",
+      "type": "integer"
+    },
+    {
+      "name": "gene_647",
+      "type": "integer"
+    },
+    {
+      "name": "gene_648",
+      "type": "integer"
+    },
+    {
+      "name": "gene_649",
+      "type": "integer"
+    },
+    {
+      "name": "gene_650",
+      "type": "integer"
+    },
+    {
+      "name": "gene_651",
+      "type": "integer"
+    },
+    {
+      "name": "gene_652",
+      "type": "integer"
+    },
+    {
+      "name": "gene_653",
+      "type": "integer"
+    },
+    {
+      "name": "gene_654",
+      "type": "integer"
+    },
+    {
+      "name": "gene_655",
+      "type": "integer"
+    },
+    {
+      "name": "gene_656",
+      "type": "integer"
+    },
+    {
+      "name": "gene_657",
+      "type": "integer"
+    },
+    {
+      "name": "gene_658",
+      "type": "integer"
+    },
+    {
+      "name": "gene_659",
+      "type": "integer"
+    },
+    {
+      "name": "gene_660",
+      "type": "integer"
+    },
+    {
+      "name": "gene_661",
+      "type": "integer"
+    },
+    {
+      "name": "gene_662",
+      "type": "integer"
+    },
+    {
+      "name": "gene_663",
+      "type": "integer"
+    },
+    {
+      "name": "gene_664",
+      "type": "integer"
+    },
+    {
+      "name": "gene_665",
+      "type": "integer"
+    },
+    {
+      "name": "gene_666",
+      "type": "integer"
+    },
+    {
+      "name": "gene_667",
+      "type": "integer"
+    },
+    {
+      "name": "gene_668",
+      "type": "integer"
+    },
+    {
+      "name": "gene_669",
+      "type": "integer"
+    },
+    {
+      "name": "gene_670",
+      "type": "integer"
+    },
+    {
+      "name": "gene_671",
+      "type": "integer"
+    },
+    {
+      "name": "gene_672",
+      "type": "integer"
+    },
+    {
+      "name": "gene_673",
+      "type": "integer"
+    },
+    {
+      "name": "gene_674",
+      "type": "integer"
+    },
+    {
+      "name": "gene_675",
+      "type": "integer"
+    },
+    {
+      "name": "gene_676",
+      "type": "integer"
+    },
+    {
+      "name": "gene_677",
+      "type": "integer"
+    },
+    {
+      "name": "gene_678",
+      "type": "integer"
+    },
+    {
+      "name": "gene_679",
+      "type": "integer"
+    },
+    {
+      "name": "gene_680",
+      "type": "integer"
+    },
+    {
+      "name": "gene_681",
+      "type": "integer"
+    },
+    {
+      "name": "gene_682",
+      "type": "integer"
+    },
+    {
+      "name": "gene_683",
+      "type": "integer"
+    },
+    {
+      "name": "gene_684",
+      "type": "integer"
+    },
+    {
+      "name": "gene_685",
+      "type": "integer"
+    },
+    {
+      "name": "gene_686",
+      "type": "integer"
+    },
+    {
+      "name": "gene_687",
+      "type": "integer"
+    },
+    {
+      "name": "gene_688",
+      "type": "integer"
+    },
+    {
+      "name": "gene_689",
+      "type": "integer"
+    },
+    {
+      "name": "gene_690",
+      "type": "integer"
+    },
+    {
+      "name": "gene_691",
+      "type": "integer"
+    },
+    {
+      "name": "gene_692",
+      "type": "integer"
+    },
+    {
+      "name": "gene_693",
+      "type": "integer"
+    },
+    {
+      "name": "gene_694",
+      "type": "integer"
+    },
+    {
+      "name": "gene_695",
+      "type": "integer"
+    },
+    {
+      "name": "gene_696",
+      "type": "integer"
+    },
+    {
+      "name": "gene_697",
+      "type": "integer"
+    },
+    {
+      "name": "gene_698",
+      "type": "integer"
+    },
+    {
+      "name": "gene_699",
+      "type": "integer"
+    },
+    {
+      "name": "gene_700",
+      "type": "integer"
+    },
+    {
+      "name": "gene_701",
+      "type": "integer"
+    },
+    {
+      "name": "gene_702",
+      "type": "integer"
+    },
+    {
+      "name": "gene_703",
+      "type": "integer"
+    },
+    {
+      "name": "gene_704",
+      "type": "integer"
+    },
+    {
+      "name": "gene_705",
+      "type": "integer"
+    },
+    {
+      "name": "gene_706",
+      "type": "integer"
+    },
+    {
+      "name": "gene_707",
+      "type": "integer"
+    },
+    {
+      "name": "gene_708",
+      "type": "integer"
+    },
+    {
+      "name": "gene_709",
+      "type": "integer"
+    },
+    {
+      "name": "gene_710",
+      "type": "integer"
+    },
+    {
+      "name": "gene_711",
+      "type": "integer"
+    },
+    {
+      "name": "gene_712",
+      "type": "integer"
+    },
+    {
+      "name": "gene_713",
+      "type": "integer"
+    },
+    {
+      "name": "gene_714",
+      "type": "integer"
+    },
+    {
+      "name": "gene_715",
+      "type": "integer"
+    },
+    {
+      "name": "gene_716",
+      "type": "integer"
+    },
+    {
+      "name": "gene_717",
+      "type": "integer"
+    },
+    {
+      "name": "gene_718",
+      "type": "integer"
+    },
+    {
+      "name": "gene_719",
+      "type": "integer"
+    },
+    {
+      "name": "gene_720",
+      "type": "integer"
+    },
+    {
+      "name": "gene_721",
+      "type": "integer"
+    },
+    {
+      "name": "gene_722",
+      "type": "integer"
+    },
+    {
+      "name": "gene_723",
+      "type": "integer"
+    },
+    {
+      "name": "gene_724",
+      "type": "integer"
+    },
+    {
+      "name": "gene_725",
+      "type": "integer"
+    },
+    {
+      "name": "gene_726",
+      "type": "integer"
+    },
+    {
+      "name": "gene_727",
+      "type": "integer"
+    },
+    {
+      "name": "gene_728",
+      "type": "integer"
+    },
+    {
+      "name": "gene_729",
+      "type": "integer"
+    },
+    {
+      "name": "gene_730",
+      "type": "integer"
+    },
+    {
+      "name": "gene_731",
+      "type": "integer"
+    },
+    {
+      "name": "gene_732",
+      "type": "integer"
+    },
+    {
+      "name": "gene_733",
+      "type": "integer"
+    },
+    {
+      "name": "gene_734",
+      "type": "integer"
+    },
+    {
+      "name": "gene_735",
+      "type": "integer"
+    },
+    {
+      "name": "gene_736",
+      "type": "integer"
+    },
+    {
+      "name": "gene_737",
+      "type": "integer"
+    },
+    {
+      "name": "gene_738",
+      "type": "integer"
+    },
+    {
+      "name": "gene_739",
+      "type": "integer"
+    },
+    {
+      "name": "gene_740",
+      "type": "integer"
+    },
+    {
+      "name": "gene_741",
+      "type": "integer"
+    },
+    {
+      "name": "gene_742",
+      "type": "integer"
+    },
+    {
+      "name": "gene_743",
+      "type": "integer"
+    },
+    {
+      "name": "gene_744",
+      "type": "integer"
+    },
+    {
+      "name": "gene_745",
+      "type": "integer"
+    },
+    {
+      "name": "gene_746",
+      "type": "integer"
+    },
+    {
+      "name": "gene_747",
+      "type": "integer"
+    },
+    {
+      "name": "gene_748",
+      "type": "integer"
+    },
+    {
+      "name": "gene_749",
+      "type": "integer"
+    },
+    {
+      "name": "gene_750",
+      "type": "integer"
+    },
+    {
+      "name": "gene_751",
+      "type": "integer"
+    },
+    {
+      "name": "gene_752",
+      "type": "integer"
+    },
+    {
+      "name": "gene_753",
+      "type": "integer"
+    },
+    {
+      "name": "gene_754",
+      "type": "integer"
+    },
+    {
+      "name": "gene_755",
+      "type": "integer"
+    },
+    {
+      "name": "gene_756",
+      "type": "integer"
+    },
+    {
+      "name": "gene_757",
+      "type": "integer"
+    },
+    {
+      "name": "gene_758",
+      "type": "integer"
+    },
+    {
+      "name": "gene_759",
+      "type": "integer"
+    },
+    {
+      "name": "gene_760",
+      "type": "integer"
+    },
+    {
+      "name": "gene_761",
+      "type": "integer"
+    },
+    {
+      "name": "gene_762",
+      "type": "integer"
+    },
+    {
+      "name": "gene_763",
+      "type": "integer"
+    },
+    {
+      "name": "gene_764",
+      "type": "integer"
+    },
+    {
+      "name": "gene_765",
+      "type": "integer"
+    },
+    {
+      "name": "gene_766",
+      "type": "integer"
+    },
+    {
+      "name": "gene_767",
+      "type": "integer"
+    },
+    {
+      "name": "gene_768",
+      "type": "integer"
+    },
+    {
+      "name": "gene_769",
+      "type": "integer"
+    },
+    {
+      "name": "gene_770",
+      "type": "integer"
+    },
+    {
+      "name": "gene_771",
+      "type": "integer"
+    },
+    {
+      "name": "gene_772",
+      "type": "integer"
+    },
+    {
+      "name": "gene_773",
+      "type": "integer"
+    },
+    {
+      "name": "gene_774",
+      "type": "integer"
+    },
+    {
+      "name": "gene_775",
+      "type": "integer"
+    },
+    {
+      "name": "gene_776",
+      "type": "integer"
+    },
+    {
+      "name": "gene_777",
+      "type": "integer"
+    },
+    {
+      "name": "gene_778",
+      "type": "integer"
+    },
+    {
+      "name": "gene_779",
+      "type": "integer"
+    },
+    {
+      "name": "gene_780",
+      "type": "integer"
+    },
+    {
+      "name": "gene_781",
+      "type": "integer"
+    },
+    {
+      "name": "gene_782",
+      "type": "integer"
+    },
+    {
+      "name": "gene_783",
+      "type": "integer"
+    },
+    {
+      "name": "gene_784",
+      "type": "integer"
+    },
+    {
+      "name": "gene_785",
+      "type": "integer"
+    },
+    {
+      "name": "gene_786",
+      "type": "integer"
+    },
+    {
+      "name": "gene_787",
+      "type": "integer"
+    },
+    {
+      "name": "gene_788",
+      "type": "integer"
+    },
+    {
+      "name": "gene_789",
+      "type": "integer"
+    },
+    {
+      "name": "gene_790",
+      "type": "integer"
+    },
+    {
+      "name": "gene_791",
+      "type": "integer"
+    },
+    {
+      "name": "gene_792",
+      "type": "integer"
+    },
+    {
+      "name": "gene_793",
+      "type": "integer"
+    },
+    {
+      "name": "gene_794",
+      "type": "integer"
+    },
+    {
+      "name": "gene_795",
+      "type": "integer"
+    },
+    {
+      "name": "gene_796",
+      "type": "integer"
+    },
+    {
+      "name": "gene_797",
+      "type": "integer"
+    },
+    {
+      "name": "gene_798",
+      "type": "integer"
+    },
+    {
+      "name": "gene_799",
+      "type": "integer"
+    },
+    {
+      "name": "gene_800",
+      "type": "integer"
+    },
+    {
+      "name": "gene_801",
+      "type": "integer"
+    },
+    {
+      "name": "gene_802",
+      "type": "integer"
+    },
+    {
+      "name": "gene_803",
+      "type": "integer"
+    },
+    {
+      "name": "gene_804",
+      "type": "integer"
+    },
+    {
+      "name": "gene_805",
+      "type": "integer"
+    },
+    {
+      "name": "gene_806",
+      "type": "integer"
+    },
+    {
+      "name": "gene_807",
+      "type": "integer"
+    },
+    {
+      "name": "gene_808",
+      "type": "integer"
+    },
+    {
+      "name": "gene_809",
+      "type": "integer"
+    },
+    {
+      "name": "gene_810",
+      "type": "integer"
+    },
+    {
+      "name": "gene_811",
+      "type": "integer"
+    },
+    {
+      "name": "gene_812",
+      "type": "integer"
+    },
+    {
+      "name": "gene_813",
+      "type": "integer"
+    },
+    {
+      "name": "gene_814",
+      "type": "integer"
+    },
+    {
+      "name": "gene_815",
+      "type": "integer"
+    },
+    {
+      "name": "gene_816",
+      "type": "integer"
+    },
+    {
+      "name": "gene_817",
+      "type": "integer"
+    },
+    {
+      "name": "gene_818",
+      "type": "integer"
+    },
+    {
+      "name": "gene_819",
+      "type": "integer"
+    },
+    {
+      "name": "gene_820",
+      "type": "integer"
+    },
+    {
+      "name": "gene_821",
+      "type": "integer"
+    },
+    {
+      "name": "gene_822",
+      "type": "integer"
+    },
+    {
+      "name": "gene_823",
+      "type": "integer"
+    },
+    {
+      "name": "gene_824",
+      "type": "integer"
+    },
+    {
+      "name": "gene_825",
+      "type": "integer"
+    },
+    {
+      "name": "gene_826",
+      "type": "integer"
+    },
+    {
+      "name": "gene_827",
+      "type": "integer"
+    },
+    {
+      "name": "gene_828",
+      "type": "integer"
+    },
+    {
+      "name": "gene_829",
+      "type": "integer"
+    },
+    {
+      "name": "gene_830",
+      "type": "integer"
+    },
+    {
+      "name": "gene_831",
+      "type": "integer"
+    },
+    {
+      "name": "gene_832",
+      "type": "integer"
+    },
+    {
+      "name": "gene_833",
+      "type": "integer"
+    },
+    {
+      "name": "gene_834",
+      "type": "integer"
+    },
+    {
+      "name": "gene_835",
+      "type": "integer"
+    },
+    {
+      "name": "gene_836",
+      "type": "integer"
+    },
+    {
+      "name": "gene_837",
+      "type": "integer"
+    },
+    {
+      "name": "gene_838",
+      "type": "integer"
+    },
+    {
+      "name": "gene_839",
+      "type": "integer"
+    },
+    {
+      "name": "gene_840",
+      "type": "integer"
+    },
+    {
+      "name": "gene_841",
+      "type": "integer"
+    },
+    {
+      "name": "gene_842",
+      "type": "integer"
+    },
+    {
+      "name": "gene_843",
+      "type": "integer"
+    },
+    {
+      "name": "gene_844",
+      "type": "integer"
+    },
+    {
+      "name": "gene_845",
+      "type": "integer"
+    },
+    {
+      "name": "gene_846",
+      "type": "integer"
+    },
+    {
+      "name": "gene_847",
+      "type": "integer"
+    },
+    {
+      "name": "gene_848",
+      "type": "integer"
+    },
+    {
+      "name": "gene_849",
+      "type": "integer"
+    },
+    {
+      "name": "gene_850",
+      "type": "integer"
+    },
+    {
+      "name": "gene_851",
+      "type": "integer"
+    },
+    {
+      "name": "gene_852",
+      "type": "integer"
+    },
+    {
+      "name": "gene_853",
+      "type": "integer"
+    },
+    {
+      "name": "gene_854",
+      "type": "integer"
+    },
+    {
+      "name": "gene_855",
+      "type": "integer"
+    },
+    {
+      "name": "gene_856",
+      "type": "integer"
+    },
+    {
+      "name": "gene_857",
+      "type": "integer"
+    },
+    {
+      "name": "gene_858",
+      "type": "integer"
+    },
+    {
+      "name": "gene_859",
+      "type": "integer"
+    },
+    {
+      "name": "gene_860",
+      "type": "integer"
+    },
+    {
+      "name": "gene_861",
+      "type": "integer"
+    },
+    {
+      "name": "gene_862",
+      "type": "integer"
+    },
+    {
+      "name": "gene_863",
+      "type": "integer"
+    },
+    {
+      "name": "gene_864",
+      "type": "integer"
+    },
+    {
+      "name": "gene_865",
+      "type": "integer"
+    },
+    {
+      "name": "gene_866",
+      "type": "integer"
+    },
+    {
+      "name": "gene_867",
+      "type": "integer"
+    },
+    {
+      "name": "gene_868",
+      "type": "integer"
+    },
+    {
+      "name": "gene_869",
+      "type": "integer"
+    },
+    {
+      "name": "gene_870",
+      "type": "integer"
+    },
+    {
+      "name": "gene_871",
+      "type": "integer"
+    },
+    {
+      "name": "gene_872",
+      "type": "integer"
+    },
+    {
+      "name": "gene_873",
+      "type": "integer"
+    },
+    {
+      "name": "gene_874",
+      "type": "integer"
+    },
+    {
+      "name": "gene_875",
+      "type": "integer"
+    },
+    {
+      "name": "gene_876",
+      "type": "integer"
+    },
+    {
+      "name": "gene_877",
+      "type": "integer"
+    },
+    {
+      "name": "gene_878",
+      "type": "integer"
+    },
+    {
+      "name": "gene_879",
+      "type": "integer"
+    },
+    {
+      "name": "gene_880",
+      "type": "integer"
+    },
+    {
+      "name": "gene_881",
+      "type": "integer"
+    },
+    {
+      "name": "gene_882",
+      "type": "integer"
+    },
+    {
+      "name": "gene_883",
+      "type": "integer"
+    },
+    {
+      "name": "gene_884",
+      "type": "integer"
+    },
+    {
+      "name": "gene_885",
+      "type": "integer"
+    },
+    {
+      "name": "gene_886",
+      "type": "integer"
+    },
+    {
+      "name": "gene_887",
+      "type": "integer"
+    },
+    {
+      "name": "gene_888",
+      "type": "integer"
+    },
+    {
+      "name": "gene_889",
+      "type": "integer"
+    },
+    {
+      "name": "gene_890",
+      "type": "integer"
+    },
+    {
+      "name": "gene_891",
+      "type": "integer"
+    },
+    {
+      "name": "gene_892",
+      "type": "integer"
+    },
+    {
+      "name": "gene_893",
+      "type": "integer"
+    },
+    {
+      "name": "gene_894",
+      "type": "integer"
+    },
+    {
+      "name": "gene_895",
+      "type": "integer"
+    },
+    {
+      "name": "gene_896",
+      "type": "integer"
+    },
+    {
+      "name": "gene_897",
+      "type": "integer"
+    },
+    {
+      "name": "gene_898",
+      "type": "integer"
+    },
+    {
+      "name": "gene_899",
+      "type": "integer"
+    },
+    {
+      "name": "gene_900",
+      "type": "integer"
+    },
+    {
+      "name": "gene_901",
+      "type": "integer"
+    },
+    {
+      "name": "gene_902",
+      "type": "integer"
+    },
+    {
+      "name": "gene_903",
+      "type": "integer"
+    },
+    {
+      "name": "gene_904",
+      "type": "integer"
+    },
+    {
+      "name": "gene_905",
+      "type": "integer"
+    },
+    {
+      "name": "gene_906",
+      "type": "integer"
+    },
+    {
+      "name": "gene_907",
+      "type": "integer"
+    },
+    {
+      "name": "gene_908",
+      "type": "integer"
+    },
+    {
+      "name": "gene_909",
+      "type": "integer"
+    },
+    {
+      "name": "gene_910",
+      "type": "integer"
+    },
+    {
+      "name": "gene_911",
+      "type": "integer"
+    },
+    {
+      "name": "gene_912",
+      "type": "integer"
+    },
+    {
+      "name": "gene_913",
+      "type": "integer"
+    },
+    {
+      "name": "gene_914",
+      "type": "integer"
+    },
+    {
+      "name": "gene_915",
+      "type": "integer"
+    },
+    {
+      "name": "gene_916",
+      "type": "integer"
+    },
+    {
+      "name": "gene_917",
+      "type": "integer"
+    },
+    {
+      "name": "gene_918",
+      "type": "integer"
+    },
+    {
+      "name": "gene_919",
+      "type": "integer"
+    },
+    {
+      "name": "gene_920",
+      "type": "integer"
+    },
+    {
+      "name": "gene_921",
+      "type": "integer"
+    },
+    {
+      "name": "gene_922",
+      "type": "integer"
+    },
+    {
+      "name": "gene_923",
+      "type": "integer"
+    },
+    {
+      "name": "gene_924",
+      "type": "integer"
+    },
+    {
+      "name": "gene_925",
+      "type": "integer"
+    },
+    {
+      "name": "gene_926",
+      "type": "integer"
+    },
+    {
+      "name": "gene_927",
+      "type": "integer"
+    },
+    {
+      "name": "gene_928",
+      "type": "integer"
+    },
+    {
+      "name": "gene_929",
+      "type": "integer"
+    },
+    {
+      "name": "gene_930",
+      "type": "integer"
+    },
+    {
+      "name": "gene_931",
+      "type": "integer"
+    },
+    {
+      "name": "gene_932",
+      "type": "integer"
+    },
+    {
+      "name": "gene_933",
+      "type": "integer"
+    },
+    {
+      "name": "gene_934",
+      "type": "integer"
+    },
+    {
+      "name": "gene_935",
+      "type": "integer"
+    },
+    {
+      "name": "gene_936",
+      "type": "integer"
+    },
+    {
+      "name": "gene_937",
+      "type": "integer"
+    },
+    {
+      "name": "gene_938",
+      "type": "integer"
+    },
+    {
+      "name": "gene_939",
+      "type": "integer"
+    },
+    {
+      "name": "gene_940",
+      "type": "integer"
+    },
+    {
+      "name": "gene_941",
+      "type": "integer"
+    },
+    {
+      "name": "gene_942",
+      "type": "integer"
+    },
+    {
+      "name": "gene_943",
+      "type": "integer"
+    },
+    {
+      "name": "gene_944",
+      "type": "integer"
+    },
+    {
+      "name": "gene_945",
+      "type": "integer"
+    },
+    {
+      "name": "gene_946",
+      "type": "integer"
+    },
+    {
+      "name": "gene_947",
+      "type": "integer"
+    },
+    {
+      "name": "gene_948",
+      "type": "integer"
+    },
+    {
+      "name": "gene_949",
+      "type": "integer"
+    },
+    {
+      "name": "gene_950",
+      "type": "integer"
+    },
+    {
+      "name": "gene_951",
+      "type": "integer"
+    },
+    {
+      "name": "gene_952",
+      "type": "integer"
+    },
+    {
+      "name": "gene_953",
+      "type": "integer"
+    },
+    {
+      "name": "gene_954",
+      "type": "integer"
+    },
+    {
+      "name": "gene_955",
+      "type": "integer"
+    },
+    {
+      "name": "gene_956",
+      "type": "integer"
+    },
+    {
+      "name": "gene_957",
+      "type": "integer"
+    },
+    {
+      "name": "gene_958",
+      "type": "integer"
+    },
+    {
+      "name": "gene_959",
+      "type": "integer"
+    },
+    {
+      "name": "gene_960",
+      "type": "integer"
+    },
+    {
+      "name": "gene_961",
+      "type": "integer"
+    },
+    {
+      "name": "gene_962",
+      "type": "integer"
+    },
+    {
+      "name": "gene_963",
+      "type": "integer"
+    },
+    {
+      "name": "gene_964",
+      "type": "integer"
+    },
+    {
+      "name": "gene_965",
+      "type": "integer"
+    },
+    {
+      "name": "gene_966",
+      "type": "integer"
+    },
+    {
+      "name": "gene_967",
+      "type": "integer"
+    },
+    {
+      "name": "gene_968",
+      "type": "integer"
+    },
+    {
+      "name": "gene_969",
+      "type": "integer"
+    },
+    {
+      "name": "gene_970",
+      "type": "integer"
+    },
+    {
+      "name": "gene_971",
+      "type": "integer"
+    },
+    {
+      "name": "gene_972",
+      "type": "integer"
+    },
+    {
+      "name": "gene_973",
+      "type": "integer"
+    },
+    {
+      "name": "gene_974",
+      "type": "integer"
+    },
+    {
+      "name": "gene_975",
+      "type": "integer"
+    },
+    {
+      "name": "gene_976",
+      "type": "integer"
+    },
+    {
+      "name": "gene_977",
+      "type": "integer"
+    },
+    {
+      "name": "gene_978",
+      "type": "integer"
+    },
+    {
+      "name": "gene_979",
+      "type": "integer"
+    },
+    {
+      "name": "gene_980",
+      "type": "integer"
+    },
+    {
+      "name": "gene_981",
+      "type": "integer"
+    },
+    {
+      "name": "gene_982",
+      "type": "integer"
+    },
+    {
+      "name": "gene_983",
+      "type": "integer"
+    },
+    {
+      "name": "gene_984",
+      "type": "integer"
+    },
+    {
+      "name": "gene_985",
+      "type": "integer"
+    },
+    {
+      "name": "gene_986",
+      "type": "integer"
+    },
+    {
+      "name": "gene_987",
+      "type": "integer"
+    },
+    {
+      "name": "gene_988",
+      "type": "integer"
+    },
+    {
+      "name": "gene_989",
+      "type": "integer"
+    },
+    {
+      "name": "gene_990",
+      "type": "integer"
+    },
+    {
+      "name": "gene_991",
+      "type": "integer"
+    },
+    {
+      "name": "gene_992",
+      "type": "integer"
+    },
+    {
+      "name": "gene_993",
+      "type": "integer"
+    },
+    {
+      "name": "gene_994",
+      "type": "integer"
+    },
+    {
+      "name": "gene_995",
+      "type": "integer"
+    },
+    {
+      "name": "gene_996",
+      "type": "integer"
+    },
+    {
+      "name": "gene_997",
+      "type": "integer"
+    },
+    {
+      "name": "gene_998",
+      "type": "integer"
+    },
+    {
+      "name": "gene_999",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1000",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1001",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1002",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1003",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1004",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1005",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1006",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1007",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1008",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1009",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1010",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1011",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1012",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1013",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1014",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1015",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1016",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1017",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1018",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1019",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1020",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1021",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1022",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1023",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1024",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1025",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1026",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1027",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1028",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1029",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1030",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1031",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1032",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1033",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1034",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1035",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1036",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1037",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1038",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1039",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1040",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1041",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1042",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1043",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1044",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1045",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1046",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1047",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1048",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1049",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1050",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1051",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1052",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1053",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1054",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1055",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1056",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1057",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1058",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1059",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1060",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1061",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1062",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1063",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1064",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1065",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1066",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1067",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1068",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1069",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1070",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1071",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1072",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1073",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1074",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1075",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1076",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1077",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1078",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1079",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1080",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1081",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1082",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1083",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1084",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1085",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1086",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1087",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1088",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1089",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1090",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1091",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1092",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1093",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1094",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1095",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1096",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1097",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1098",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1099",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1100",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1101",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1102",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1103",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1104",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1105",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1106",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1107",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1108",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1109",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1110",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1111",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1112",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1113",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1114",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1115",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1116",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1117",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1118",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1119",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1120",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1121",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1122",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1123",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1124",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1125",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1126",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1127",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1128",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1129",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1130",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1131",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1132",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1133",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1134",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1135",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1136",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1137",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1138",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1139",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1140",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1141",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1142",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1143",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1144",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1145",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1146",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1147",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1148",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1149",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1150",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1151",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1152",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1153",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1154",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1155",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1156",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1157",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1158",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1159",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1160",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1161",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1162",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1163",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1164",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1165",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1166",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1167",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1168",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1169",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1170",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1171",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1172",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1173",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1174",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1175",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1176",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1177",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1178",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1179",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1180",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1181",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1182",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1183",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1184",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1185",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1186",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1187",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1188",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1189",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1190",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1191",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1192",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1193",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1194",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1195",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1196",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1197",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1198",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1199",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1200",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1201",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1202",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1203",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1204",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1205",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1206",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1207",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1208",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1209",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1210",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1211",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1212",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1213",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1214",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1215",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1216",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1217",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1218",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1219",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1220",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1221",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1222",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1223",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1224",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1225",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1226",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1227",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1228",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1229",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1230",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1231",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1232",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1233",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1234",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1235",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1236",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1237",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1238",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1239",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1240",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1241",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1242",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1243",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1244",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1245",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1246",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1247",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1248",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1249",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1250",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1251",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1252",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1253",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1254",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1255",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1256",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1257",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1258",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1259",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1260",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1261",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1262",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1263",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1264",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1265",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1266",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1267",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1268",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1269",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1270",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1271",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1272",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1273",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1274",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1275",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1276",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1277",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1278",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1279",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1280",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1281",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1282",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1283",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1284",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1285",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1286",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1287",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1288",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1289",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1290",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1291",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1292",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1293",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1294",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1295",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1296",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1297",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1298",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1299",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1300",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1301",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1302",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1303",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1304",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1305",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1306",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1307",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1308",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1309",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1310",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1311",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1312",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1313",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1314",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1315",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1316",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1317",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1318",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1319",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1320",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1321",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1322",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1323",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1324",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1325",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1326",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1327",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1328",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1329",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1330",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1331",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1332",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1333",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1334",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1335",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1336",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1337",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1338",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1339",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1340",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1341",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1342",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1343",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1344",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1345",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1346",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1347",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1348",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1349",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1350",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1351",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1352",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1353",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1354",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1355",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1356",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1357",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1358",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1359",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1360",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1361",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1362",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1363",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1364",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1365",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1366",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1367",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1368",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1369",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1370",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1371",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1372",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1373",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1374",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1375",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1376",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1377",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1378",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1379",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1380",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1381",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1382",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1383",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1384",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1385",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1386",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1387",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1388",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1389",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1390",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1391",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1392",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1393",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1394",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1395",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1396",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1397",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1398",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1399",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1400",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1401",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1402",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1403",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1404",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1405",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1406",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1407",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1408",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1409",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1410",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1411",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1412",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1413",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1414",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1415",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1416",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1417",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1418",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1419",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1420",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1421",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1422",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1423",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1424",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1425",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1426",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1427",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1428",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1429",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1430",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1431",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1432",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1433",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1434",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1435",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1436",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1437",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1438",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1439",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1440",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1441",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1442",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1443",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1444",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1445",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1446",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1447",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1448",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1449",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1450",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1451",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1452",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1453",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1454",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1455",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1456",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1457",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1458",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1459",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1460",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1461",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1462",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1463",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1464",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1465",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1466",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1467",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1468",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1469",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1470",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1471",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1472",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1473",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1474",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1475",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1476",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1477",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1478",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1479",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1480",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1481",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1482",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1483",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1484",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1485",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1486",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1487",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1488",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1489",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1490",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1491",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1492",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1493",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1494",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1495",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1496",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1497",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1498",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1499",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1500",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1501",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1502",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1503",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1504",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1505",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1506",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1507",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1508",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1509",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1510",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1511",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1512",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1513",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1514",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1515",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1516",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1517",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1518",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1519",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1520",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1521",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1522",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1523",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1524",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1525",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1526",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1527",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1528",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1529",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1530",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1531",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1532",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1533",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1534",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1535",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1536",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1537",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1538",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1539",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1540",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1541",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1542",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1543",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1544",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1545",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1546",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1547",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1548",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1549",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1550",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1551",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1552",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1553",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1554",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1555",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1556",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1557",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1558",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1559",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1560",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1561",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1562",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1563",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1564",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1565",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1566",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1567",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1568",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1569",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1570",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1571",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1572",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1573",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1574",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1575",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1576",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1577",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1578",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1579",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1580",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1581",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1582",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1583",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1584",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1585",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1586",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1587",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1588",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1589",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1590",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1591",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1592",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1593",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1594",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1595",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1596",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1597",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1598",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1599",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1600",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1601",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1602",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1603",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1604",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1605",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1606",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1607",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1608",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1609",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1610",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1611",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1612",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1613",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1614",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1615",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1616",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1617",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1618",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1619",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1620",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1621",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1622",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1623",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1624",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1625",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1626",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1627",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1628",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1629",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1630",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1631",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1632",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1633",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1634",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1635",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1636",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1637",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1638",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1639",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1640",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1641",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1642",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1643",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1644",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1645",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1646",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1647",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1648",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1649",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1650",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1651",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1652",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1653",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1654",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1655",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1656",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1657",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1658",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1659",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1660",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1661",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1662",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1663",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1664",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1665",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1666",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1667",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1668",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1669",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1670",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1671",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1672",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1673",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1674",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1675",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1676",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1677",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1678",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1679",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1680",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1681",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1682",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1683",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1684",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1685",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1686",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1687",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1688",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1689",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1690",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1691",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1692",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1693",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1694",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1695",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1696",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1697",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1698",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1699",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1700",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1701",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1702",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1703",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1704",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1705",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1706",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1707",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1708",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1709",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1710",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1711",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1712",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1713",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1714",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1715",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1716",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1717",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1718",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1719",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1720",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1721",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1722",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1723",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1724",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1725",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1726",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1727",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1728",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1729",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1730",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1731",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1732",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1733",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1734",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1735",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1736",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1737",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1738",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1739",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1740",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1741",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1742",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1743",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1744",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1745",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1746",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1747",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1748",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1749",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1750",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1751",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1752",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1753",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1754",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1755",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1756",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1757",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1758",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1759",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1760",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1761",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1762",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1763",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1764",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1765",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1766",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1767",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1768",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1769",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1770",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1771",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1772",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1773",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1774",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1775",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1776",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1777",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1778",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1779",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1780",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1781",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1782",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1783",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1784",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1785",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1786",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1787",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1788",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1789",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1790",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1791",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1792",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1793",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1794",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1795",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1796",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1797",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1798",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1799",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1800",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1801",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1802",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1803",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1804",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1805",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1806",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1807",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1808",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1809",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1810",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1811",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1812",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1813",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1814",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1815",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1816",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1817",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1818",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1819",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1820",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1821",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1822",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1823",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1824",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1825",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1826",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1827",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1828",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1829",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1830",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1831",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1832",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1833",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1834",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1835",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1836",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1837",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1838",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1839",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1840",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1841",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1842",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1843",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1844",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1845",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1846",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1847",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1848",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1849",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1850",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1851",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1852",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1853",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1854",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1855",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1856",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1857",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1858",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1859",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1860",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1861",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1862",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1863",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1864",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1865",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1866",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1867",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1868",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1869",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1870",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1871",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1872",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1873",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1874",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1875",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1876",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1877",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1878",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1879",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1880",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1881",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1882",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1883",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1884",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1885",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1886",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1887",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1888",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1889",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1890",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1891",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1892",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1893",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1894",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1895",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1896",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1897",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1898",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1899",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1900",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1901",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1902",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1903",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1904",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1905",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1906",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1907",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1908",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1909",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1910",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1911",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1912",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1913",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1914",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1915",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1916",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1917",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1918",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1919",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1920",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1921",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1922",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1923",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1924",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1925",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1926",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1927",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1928",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1929",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1930",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1931",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1932",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1933",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1934",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1935",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1936",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1937",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1938",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1939",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1940",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1941",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1942",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1943",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1944",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1945",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1946",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1947",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1948",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1949",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1950",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1951",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1952",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1953",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1954",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1955",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1956",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1957",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1958",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1959",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1960",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1961",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1962",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1963",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1964",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1965",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1966",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1967",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1968",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1969",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1970",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1971",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1972",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1973",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1974",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1975",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1976",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1977",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1978",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1979",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1980",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1981",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1982",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1983",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1984",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1985",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1986",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1987",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1988",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1989",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1990",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1991",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1992",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1993",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1994",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1995",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1996",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1997",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1998",
+      "type": "integer"
+    },
+    {
+      "name": "gene_1999",
+      "type": "integer"
+    },
+    {
+      "name": "gene_2000",
+      "type": "integer"
+    },
+    {
+      "name": "target",
+      "type": "integer"
+    }
+  ],
+  "created": "2026-11-24 12:54:27"
+}

@@ -1,0 +1,16 @@
+Avvio generate() su 5110 righe x 12 colonne
+[progress] 10% Preprocessing dei dati e gestione colonne categoriche...
+[progress] 30% Inizializzazione e fit di BSTabDiff...
+[prior:diffusion] epoch 1/1500 | loss=1.000300
+[prior:diffusion] epoch 200/1500 | loss=0.374725
+[prior:diffusion] epoch 400/1500 | loss=0.335973
+[prior:diffusion] epoch 600/1500 | loss=0.263479
+[prior:diffusion] epoch 800/1500 | loss=0.274374
+[prior:diffusion] epoch 1000/1500 | loss=0.256000
+[prior:diffusion] epoch 1200/1500 | loss=0.238311
+[prior:diffusion] epoch 1400/1500 | loss=0.229045
+[prior:diffusion] epoch 1500/1500 | loss=0.238860
+[progress] 80% Generazione campioni sintetici...
+[progress] 100% Generazione completata con successo.
+Completato: 100 righe sintetiche in 10.4s
+[0m

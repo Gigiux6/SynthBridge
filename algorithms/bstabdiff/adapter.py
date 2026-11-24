@@ -5,7 +5,7 @@ from bstabdiff import BSTabDiff
 
 def generate(data, n_rows, params, info):
     """
-    Adapter definitivo per BSTabDiff con gestione flessibile del return di sample().
+    Adapter definitivo per BSTabDiff con gestione robusta dei tipi Categorical e dei dati mancanti (NA/NaN).
     """
     seed = info.get("seed", 42)
     np.random.seed(seed)
@@ -20,9 +20,21 @@ def generate(data, n_rows, params, info):
     if not categorical_cols:
         categorical_cols = df_train.select_dtypes(include=['object', 'category']).columns.tolist()
     
+    # 1. Gestione globale dei valori mancanti (NA/NaN) e pulizia tipi Categorical
+    for col in df_train.columns:
+        if col in categorical_cols:
+            # Sblocca il tipo Categorical convertendo prima in stringa standard
+            df_train[col] = df_train[col].astype(str).replace({'nan': 'Missing', '<NA>': 'Missing', 'None': 'Missing'})
+            df_train[col] = df_train[col].fillna("Missing")
+        else:
+            # Per le colonne numeriche (es. bmi), riempi temporaneamente i mancanti con la mediana
+            if df_train[col].isnull().any():
+                df_train[col] = df_train[col].fillna(df_train[col].median())
+
+    # 2. Codifica LabelEncoder per le variabili categoriche
     for col in categorical_cols:
         le = LabelEncoder()
-        df_train[col] = le.fit_transform(df_train[col].astype(str))
+        df_train[col] = le.fit_transform(df_train[col])
         label_encoders[col] = le
 
     if "progress" in info and callable(info["progress"]):

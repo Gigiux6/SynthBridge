@@ -1,0 +1,30 @@
+Avvio generate() su 5110 righe x 12 colonne
+[progress] 10% Preprocessing dei dati e gestione colonne categoriche...
+Traceback (most recent call last):
+  File "C:\Users\lespo\Desktop\Huni\MAGISTRALE\Libri\SAD\Progetto SAD\SynthBridge\envs\bstabdiff\Lib\site-packages\sklearn\utils\_encode.py", line 177, in _unique_python
+    uniques = sorted(uniques_set)
+  File "pandas/_libs/missing.pyx", line 392, in pandas._libs.missing.NAType.__bool__
+TypeError: boolean value of NA is ambiguous
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\lespo\Desktop\Huni\MAGISTRALE\Libri\SAD\Progetto SAD\SynthBridge\bridge\synthbridge.py", line 157, in main
+    result = fn(data, int(job["n_rows"]), job.get("params", {}), info)
+  File "C:/Users/lespo/Desktop/Huni/MAGISTRALE/Libri/SAD/Progetto SAD/SynthBridge/algorithms/bstabdiff\adapter.py", line 25, in generate
+    df_train[col] = le.fit_transform(df_train[col].astype(str))
+                    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lespo\Desktop\Huni\MAGISTRALE\Libri\SAD\Progetto SAD\SynthBridge\envs\bstabdiff\Lib\site-packages\sklearn\preprocessing\_label.py", line 121, in fit_transform
+    self.classes_, y = _unique(y, return_inverse=True)
+                       ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lespo\Desktop\Huni\MAGISTRALE\Libri\SAD\Progetto SAD\SynthBridge\envs\bstabdiff\Lib\site-packages\sklearn\utils\_encode.py", line 46, in _unique
+    return _unique_python(
+        values, return_inverse=return_inverse, return_counts=return_counts
+    )
+  File "C:\Users\lespo\Desktop\Huni\MAGISTRALE\Libri\SAD\Progetto SAD\SynthBridge\envs\bstabdiff\Lib\site-packages\sklearn\utils\_encode.py", line 182, in _unique_python
+    raise TypeError(
+    ...<2 lines>...
+    )
+TypeError: Encoders require their input argument must be uniformly strings or numbers. Got ['NAType', 'str']
+
+[0m
